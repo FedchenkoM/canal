@@ -1,0 +1,42 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.table__head {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 8px;
+    background-color: rgb(214, 210, 210);
+    overflow: hidden;
+}
+
+.loader {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+.element-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+
+    &:nth-child(odd) {
+        background-color: rgb(220, 217, 217);
+    }
+
+    .element {
+        width: 80px;
+        padding: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:nth-child(odd) {
+            background-color: rgb(183, 180, 180);
+        }
+    }
+
+}
