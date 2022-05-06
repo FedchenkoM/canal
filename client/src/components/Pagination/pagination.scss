@@ -1,0 +1,20 @@
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(214, 210, 210);
+    padding: 5px;
+    &__pages{
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: space-around;
+        width:320px;
+    }
+    .current{
+        font-size: 120%;
+        background-color: rgb(231, 230, 230);
+        border-bottom: 1px solid black;
+        padding: 3px;
+    }
+}

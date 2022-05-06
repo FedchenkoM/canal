@@ -5,7 +5,8 @@
     background-color: rgb(214, 210, 210);
 
     select {
-        flex-grow: 0.3;
+        width: 50px;
+        flex-grow: 0.2;
         padding: 2px;
         background: transparent;
         border: none;
@@ -13,7 +14,8 @@
     }
 
     input {
-        flex-grow: 0.2;
+        width: 50px;
+        flex-grow: 0.3;
         border: none;
     }
 }
